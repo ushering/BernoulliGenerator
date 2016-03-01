@@ -27,7 +27,7 @@ We can generate :math:`Y` by flipping a fair coin repeatedly. Let :math:`Y=0.B_1
     1 & i\textrm{th flip is “tail”} \end{cases} 
 
 
-In order to decide whether :math:`Y` is greater or less than :math:`p`, we need to generate the binary expansion of :math:`Y` bit by bit and compare them with the corresponding bits of :math:`p`.  Once we find the smallest :math:`k` such that :math:`a_k\neq b_k`, we will stop flipping the coin. Then, :math:`X` can be generated as follows:
+In order to decide whether :math:`Y` is greater or less than :math:`p`, we need to generate the binary expansion of :math:`Y` bit by bit and compare them with the corresponding bits of :math:`p`.  Once we find the smallest :math:`k` such that :math:`a_k\neq B_k`, we will stop flipping the coin. Then, :math:`X` can be generated as follows:
 
 
 .. math::
