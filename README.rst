@@ -54,4 +54,4 @@ We have the expected number of flips:
 
     E\left[\textrm{# of flips}\right]=\sum_{k=1}^{n-1}k\cdot\left(\frac{1}{2}\right)^{k}+n\cdot\left(\frac{1}{2}\right)^{n}=2-\left(\frac{1}{2}\right)^{n-1}
 
-For :math:`p=0.5`, the length of its binary expansion :math:`n=1`, and thus the expected number of flips is :math:`1`. For :math:`p=0.625` (its :math:`n=3`), the expected number of flips is :math:`1.75`. When :math:`n\rightarrow\infty`, e.g., :math:`p=\frac{5}{7}`, the expected number of flips will be :math:`2`.
+For :math:`p=0.5`, the length of its binary expansion :math:`n=1`, and thus the expected number of flips is :math:`1`. For :math:`p=0.625` (its :math:`n=3`), the expected number of flips is :math:`1.75`. When :math:`n\rightarrow\infty`, e.g., :math:`p=5/7`, the expected number of flips will be :math:`2`.
