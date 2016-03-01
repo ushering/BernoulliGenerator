@@ -44,7 +44,7 @@ Based on the algorithm above, the probability of the number of flips required is
 
 .. math::
 
-    P\left[\textrm{\# of flips}=k\right]=\begin{cases} \left(\frac{1}{2}\right)k & k<n \\
+    P\left[\textrm{# of flips}=k\right]=\begin{cases} \left(\frac{1}{2}\right)k & k<n \\
     \left(\frac{1}{2}\right)n & k=n \end{cases}
 
  
@@ -52,6 +52,6 @@ We have the expected number of flips:
 
 .. math::
 
-    E\left[\textrm{\# of flips}\right]=\sum_{k=1}^{n-1}k\cdot\left(\frac{1}{2}\right)^{k}+n\cdot\left(\frac{1}{2}\right)^{n}=2-\left(\frac{1}{2}\right)^{n-1}
+    E\left[\textrm{# of flips}\right]=\sum_{k=1}^{n-1}k\cdot\left(\frac{1}{2}\right)^{k}+n\cdot\left(\frac{1}{2}\right)^{n}=2-\left(\frac{1}{2}\right)^{n-1}
 
 For :math:`p=0.5`, the length of its binary expansion :math:`n=1`, and thus the expected number of flips is $1$. For :math:`p=0.625` (its :math:`n=3`), the expected number of flips is :math:`1.75`. When :math:`n\rightarrow\infty`, e.g., :math:`p=5/7`, the expected number of flips will be :math:`2`.
