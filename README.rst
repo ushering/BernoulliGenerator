@@ -44,8 +44,8 @@ Based on the algorithm above, the probability of the number of flips required is
 
 .. math::
 
-    P\left[\textrm{# of flips}=k\right]=\begin{cases} \left(\frac{1}{2}\right)k & k<n \\
-    \left(\frac{1}{2}\right)n & k=n \end{cases}
+    P\left[\textrm{# of flips}=k\right]=\begin{cases} \left(\frac{1}{2}\right)^k & k<n \\
+    \left(\frac{1}{2}\right)^n & k=n \end{cases}
 
  
 We have the expected number of flips:
